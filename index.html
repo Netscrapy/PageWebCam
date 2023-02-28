@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Frontend Bootcamp</title>
+</head>
+
+<body>
+    <!--Barra Navegación-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+
+                <span class="navbar-toggler-icon">
+
+                </span>
+
+            </button>
+
+            <!--Menu hamburguesa-->
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#aprender" class="nav-link">¿Qué aprendiste?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#preguntas" class="nav-link">¿Preguntas?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructores" class="nav-link">Instructores</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Portada-->
+    <section class="bg-dark text-light p-5 p-lg-0 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Bienvenido <span class="text-warning">Desarrollador Web</span></h1>
+                    <p class="lead my-4">
+                        Nos especializamos en construir conocimiento para desarrolladores de software y habilidades
+                        blandas.
+                    </p>
+                    <button class="btn btn-primary btn-lg">Inscribete</button>
+                </div>
+                <img src="img/showcase.svg" class="img-fluid d-sm-block w-50 d-none">
+            </div>
+        </div>
+    </section>
+
+    <!--Suscripción-->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">
+                    Registrate para más Noticias
+                </h3>
+                <div class="input-group noticias-input">
+                    <input type="text" class="form-control" placeholder="Ingrese su email">
+                    <button class="btn btn-dark btn-lg" type="button">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Instructores/ tarjetas-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <!--Inicio de la tarjeta-->
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Virtual
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati provident veniam saepe voluptatem dolorem similique?
+                            </p>
+                            <a href="" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Híbrido
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati provident veniam saepe voluptatem dolorem similique?
+                            </p>
+                            <a href="" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Presencial
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati provident veniam saepe voluptatem dolorem similique?
+                            </p>
+                            <a href="" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <!--cierre tarjeta-->
+            </div>
+        </div>
+    </section>
+
+    <!--Aprendizajes-->
+    <section class="p-5" id="aprender">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/fundamentals.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Aprender lo fundamental!</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nam.
+                    </p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut vero earum aliquid assumenda modi odit nemo, excepturi at exercitationem rem?
+                    </p>
+                    <a href="" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i>Ver Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aprendizaje Dos-->
+    <section id="aprender" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Aprender lo fundamental!</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, eos?
+                    </p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, necessitatibus nihil rerum ab placeat eligendi?</p>
+                    <a href="" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i>Ver Más</a>
+                </div>
+                <div class="col-md">
+                    <img src="img/react.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Preguntas-->
+    <section id="preguntas" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Preguntas más comunes
+            </h2>
+            <!--Acordeon Flush-->
+            <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="preguntauno">
+                        <!--pregunta uno-->
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Pregunta Uno: ¿Qué es React?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="preguntauno" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ullam reiciendis facere quam consequatur assumenda eius esse at velit possimus fugiat libero, ratione totam minima optio voluptatibus magni debitis nemo.
+                        </div>
+                    </div>
+                </div>
+                <!--Pregunta dos-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="preguntados">
+                        <!--pregunta dos-->
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Pregunta Dos: ¿Qué es Node?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="preguntados" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ullam reiciendis facere quam consequatur assumenda eius esse at velit possimus fugiat libero, ratione totam minima optio voluptatibus magni debitis nemo.
+                        </div>
+                    </div>
+                </div>
+                <!--Pregunta tres-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="preguntatres">
+                        <!--pregunta tres-->
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Pregunta Tres: ¿Qué es un framework?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="preguntatres" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ullam reiciendis facere quam consequatur assumenda eius esse at velit possimus fugiat libero, ratione totam minima optio voluptatibus magni debitis nemo.
+                        </div>
+                    </div>
+                </div>
+                 <!--Pregunta cuatro-->
+                 <div class="accordion-item">
+                    <h2 class="accordion-header" id="preguntacuatro">
+                        <!--pregunta cuatro-->
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            Pregunta Cuatro: ¿Qué es Express.JS?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="preguntacuatro" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ullam reiciendis facere quam consequatur assumenda eius esse at velit possimus fugiat libero, ratione totam minima optio voluptatibus magni debitis nemo.
+                        </div>
+                    </div>
+                </div>
+                <!--Pregunta cinco-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="preguntacinco">
+                        <!--pregunta cinco-->
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Pregunta Cinco: ¿Cómo me inscribo al Bootcamp?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="preguntacinco" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ullam reiciendis facere quam consequatur assumenda eius esse at velit possimus fugiat libero, ratione totam minima optio voluptatibus magni debitis nemo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Instructores-->
+    <section id="instructores" class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white">
+                Nuestros Instructores
+            </h2>
+            <p class="lead text-center text-white mb-5">
+                Nuestra academia posee instructores con más de 5 años
+                de experiencia con frontend en la industria.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/29.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Julian Castro</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum adipisci molestiae sequi omnis doloribus officia.</p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/17.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Maria Barrios</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum adipisci molestiae sequi omnis doloribus officia.</p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/88.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Andres Torres</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum adipisci molestiae sequi omnis doloribus officia.</p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/95.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Nikol Vanegas</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum adipisci molestiae sequi omnis doloribus officia.</p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contacto y Mapa-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">
+                        Información de Contacto
+                    </h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Ubicación:</span>
+                            Corhuila Sede Prado Alto
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Teléfono:</span>
+                            5555555555
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email Bootcamp:</span>
+                            bootcamp@corhuila.edu.co
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Cursos Libres:</span>
+                            cursos@corhuila.edu.co
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Celular:</span>
+                            3156789033
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

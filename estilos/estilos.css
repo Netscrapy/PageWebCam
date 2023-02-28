@@ -1,0 +1,12 @@
+/*arreglar muñeca*/
+body::before{
+    display: block;
+    content: '';
+    height: 56px;
+}
+/*Ajustar input de noticias*/
+@media(min-width:992px){
+    .noticias-input{
+        width: 50%;
+    }
+}
