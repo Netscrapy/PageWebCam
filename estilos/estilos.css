@@ -10,3 +10,10 @@ body::before{
         width: 50%;
     }
 }
+
+/*Estilo mapa*/
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
